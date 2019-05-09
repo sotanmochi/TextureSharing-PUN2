@@ -1,0 +1,114 @@
+# ======================================== #
+# Initial setting (All assets are ignored)
+# ======================================== #
+Assets/*
+
+# ======================== #
+# Project specific setting
+# ======================== #
+!Assets/Scripts/
+!Assets/Plugins/
+!Assets/Scripts.meta
+!Assets/Plugins.meta
+Assets/Scripts/*
+Assets/Plugins/*
+
+# ======================================= #
+# Third party assets (Not ignored assets)
+# ======================================= #
+!Assets/Plugins/UniRx/
+!Assets/Plugins/UniRx.meta
+
+# ============================================================== #
+# Project specific assets and my own assets (Not ignored assets)
+# ============================================================== #
+!Assets/TextureSharing/
+!Assets/TextureSharing.meta
+!Assets/SimpleDrawing/
+!Assets/SimpleDrawing.meta
+!Assets/UniRxExtension/
+!Assets/UniRxExtension.meta
+
+!Assets/StreamingAssets/
+!Assets/StreamingAssets.meta
+
+!Assets/_ApplicationAssets/
+!Assets/_ApplicationAssets.meta
+!Assets/_GameAssets/
+!Assets/_GameAssets.meta
+!Assets/_SharedAssets/
+!Assets/_SharedAssets.meta
+
+# =============== #
+# Unity generated #
+# =============== #
+[Tt]emp/
+[Oo]bj/
+[Bb]in/
+[Bb]uilds/
+[Bb]uild/
+[Ll]ibrary/
+[Aa]pp/
+UWP/
+WindowsStoreApp/
+UnityGenerated/
+UnityPackageManager/
+.out/
+project.json
+project.lock.json
+*.package
+
+# ============ #
+# Certificates #
+# ============ #
+*.cert
+*.privkey
+*.pfx
+*.pfx.meta
+
+# ============================ #
+# Visual Studio Code generated #
+# ============================ #
+.vscode/
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+.vs/
+ExportedObj/
+obj/
+*.svd
+*.userprefs
+/*.csproj
+*.csproj
+*.pidb
+*.suo
+/*.sln
+*.sln
+*.user
+*.unityproj
+*.ipch
+*.opensdf
+*.sdf
+*.tlog
+*.log
+*.idb
+*.opendb
+
+# Gradle cache directory
+.gradle/
+
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D Generated File On Crash Reports
+sysinfo.txt
+
+# Builds
+*.apk
+*.unitypackage
+
+# Crashlytics generated file
+crashlytics-build.properties
