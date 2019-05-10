@@ -96,9 +96,10 @@ namespace TextureSharing
             PhotonNetwork.RaiseEvent((byte)StreamingBytesEventCode.BeginStream, textureInfo, raiseEventOptions, sendOptions);
 
             // Send raw data
+            // The SlowDown operator is not necessary if you ignore the limit on the number of messages per second of Photon Cloud.
             rawTextureData.ToObservable()
                 .Buffer(bytePerMessage)
-                .SlowDown(1.0f/messagePerSecond)
+                // .SlowDown(1.0f/messagePerSecond)
                 .Subscribe(byteSubList =>
                 {
                     byte[] sendData = new byte[byteSubList.Count];
