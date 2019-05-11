@@ -22,8 +22,8 @@ Assets/Plugins/*
 # ============================================================== #
 # Project specific assets and my own assets (Not ignored assets)
 # ============================================================== #
-!Assets/TextureSharing/
-!Assets/TextureSharing.meta
+!Assets/TextureSharing-PUN2/
+!Assets/TextureSharing-PUN2.meta
 !Assets/SimpleDrawing/
 !Assets/SimpleDrawing.meta
 !Assets/UniRxExtension/
