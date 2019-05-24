@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/TextureSharing/Example.unity
+    path: Assets/TextureSharing-PUN2/Example.unity
     guid: 754e8b90d008eab41bd953fca3aca9ca
   m_configObjects: {}
