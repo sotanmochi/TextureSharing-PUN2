@@ -52,7 +52,7 @@ namespace TextureSharing
         [PunRPC]
         public void GetRawTextureDataRPC(PhotonMessageInfo info)
         {
-            byte[] rawTextureData = texture.GetRawTextureData();
+            byte[] rawTextureData = texture.EncodeToPNG();
 
             int width = texture.width;
             int height = texture.height;
@@ -150,7 +150,7 @@ namespace TextureSharing
             Debug.Log("*************************");
             Debug.Log(" OnReceivedTextureInfo");
             Debug.Log(" Texture size: " + width + "x" + height + "px");
-            Debug.Log(" RawTextureDataSize: " + data[2]);
+            Debug.Log(" RawTextureDataSize: " + dataSize);
             Debug.Log("*************************");
         }
 
@@ -179,7 +179,7 @@ namespace TextureSharing
             Debug.Log(" OnReceivedRawTextureData ");
             Debug.Log("********************************");
 
-            texture.LoadRawTextureData(this.receiveBuffer);
+            texture.LoadImage(this.receiveBuffer);
             texture.Apply();
             GetComponent<Renderer>().material.mainTexture = texture;
         }
