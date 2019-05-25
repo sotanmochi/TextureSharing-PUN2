@@ -1,5 +1,9 @@
 # Texture Sharing using PUN2
 
+## References
+- [Photon Unity Networking 2 (PUN2) のRPCとRaiseEventを使ってテクスチャデータを送信する - Nabla Tech Lab](https://nabla-tech-lab.hatenablog.com/entry/2019/05/15/180000)
+- [テクスチャデータを圧縮してPhotonのRaiseEventとモノビットエンジンのRPCで送信する - Nabla Tech Lab](https://nabla-tech-lab.hatenablog.com/entry/texture-sharing-lossless-compression)
+
 ## Tested Environment
 - Unity 2018.3.14f1
 - Windows 10 Pro
