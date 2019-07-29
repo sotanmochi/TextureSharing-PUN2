@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/TextureSharing-PUN2/Example.unity
+  - enabled: 0
+    path: Assets/TextureSharing-PUN2/01_GetFromMasterClient/Example.unity
     guid: 754e8b90d008eab41bd953fca3aca9ca
+  - enabled: 1
+    path: Assets/TextureSharing-PUN2/02_Broadcast/BroadcastDemo.unity
+    guid: 0dd4f3eede9fd1244bc9fb00d31ed4f0
   m_configObjects: {}
